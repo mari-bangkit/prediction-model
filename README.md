@@ -1,6 +1,6 @@
 # Prediction Model
 
-Prediction model for MariBangkit apps. Hosted in Azure ML as a web service.
+Prediction model for MariBangkit apps. Hosted in Azure ML as a [web service](https://maribangkit.eastus.inference.ml.azure.com/score).
 
 ## Deployment
 
