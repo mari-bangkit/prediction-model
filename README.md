@@ -2,6 +2,12 @@
 
 Prediction model for MariBangkit apps. Hosted in Azure ML as a [web service](https://maribangkit.eastus.inference.ml.azure.com/score).
 
+## About the Model
+
+The exported model is using Lasso Regression to predict car purchase amount a customer would buy based on their profile, such as gender, annual salary, and more.
+
+The dataset used is accessible [here](https://raw.githubusercontent.com/mari-bangkit/dataset/main/otomotic_id.csv). It is originally come from [Car Purchase Price (beginner dataset)](https://www.kaggle.com/datasets/yashk07/car-purchase-price-beginner-dataset), but has been modified to suit the Indonesian currency (Rp).
+
 ## Deployment
 
 ### Prerequisites
@@ -67,6 +73,8 @@ Prediction model for MariBangkit apps. Hosted in Azure ML as a [web service](htt
 
 1. Test the API.
 
+    Bash/ZSH shell:
+
     ```
     export AZURE_ML_URL=<endpoint url>
     export AZURE_ML_API_KEY=<endpoint key>
@@ -74,6 +82,7 @@ Prediction model for MariBangkit apps. Hosted in Azure ML as a [web service](htt
     ```
 
     Fish shell:
+
     ```
     set -x AZURE_ML_URL <endpoint url>
     set -x AZURE_ML_API_KEY <endpoint key>
