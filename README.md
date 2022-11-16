@@ -8,6 +8,10 @@ The exported model uses Lasso Regression to predict the car purchase amount a cu
 
 The dataset used is accessible [here](https://raw.githubusercontent.com/mari-bangkit/dataset/main/otomotic_id.csv). It is originally come from [Car Purchase Price (beginner dataset)](https://www.kaggle.com/datasets/yashk07/car-purchase-price-beginner-dataset), but has been modified to suit the Indonesian currency (Rp).
 
+## Publication
+
+Research paper: [https://ejurnal.stmik-budidarma.ac.id/index.php/jurikom/article/view/5021](https://ejurnal.stmik-budidarma.ac.id/index.php/jurikom/article/view/5021)
+
 ## Deployment
 
 ### Prerequisites
